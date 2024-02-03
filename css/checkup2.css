@@ -1,0 +1,38 @@
+.heading
+{
+    background-color: green;
+font-size: larger;
+padding: 10px;
+text-align: center;
+}
+.checkuppart
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #c9c9f0;
+    padding:10px;
+    border-radius:5px;
+}
+.info
+{
+     height:150px;
+    width:150px;
+    margin:10px;
+    padding:10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    font-size: 10px;
+}
+.offer
+{
+    background-color: red;
+    display: inline;
+    font-size:15px;
+}
+.img
+{
+    width:180px;
+    height:100px;
+
+}

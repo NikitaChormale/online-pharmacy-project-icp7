@@ -1,0 +1,38 @@
+.title{
+    text-align: center;
+    color:white ;
+    background-color:green;
+    font-size: large;
+    margin: 10px;
+    padding-top:5px;
+    display:block;
+    
+}
+.titleone{
+    text-align:center;
+    margin:10px;
+}
+.Patientdetails{
+    background-color:white;
+    padding-left: 150px;
+    padding-right:100px ;
+    
+}
+.mainimg{
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+}
+.main{
+    margin: 10px;
+
+}
+.img{
+    width:50px;
+}
+.footer{
+    background-color: #0a534f;
+    text-align: center;
+    padding: 10px;
+    color:white;
+}
