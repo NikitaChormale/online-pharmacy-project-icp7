@@ -52,8 +52,18 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    
     }
+    @media screen and (min-width:600px),(max-width: 900px){
+        .square{
+         flex-wrap: wrap;
+         justify-content: space-around;
+         }
+     }
+     @media screen and (max-width: 590px){
+        .box2{
+            flex-direction: column;
+        }
+     }
 .testcard{
     width: 220px;
     height: 194px;
@@ -93,6 +103,11 @@
     margin: 20px auto;
     height: 260px;
 }
+@media screen and (max-width: 590px){
+    .box3{
+        height: 600px;
+    }
+ }
 .box3-head{
     position: relative;
     top: 10px;
@@ -109,6 +124,7 @@
 .box3-allcard{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .box3-card{
     margin: 25px 10px;
@@ -134,4 +150,36 @@
 }
 .box3-card-icon{
      height: 20px;   
+}
+.box4{
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    
+}
+.box4-cards{
+    width: 200px;
+    height: 170px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+.box4card-img{
+    height: 30px;
+    margin: 5px 0 0 10px;
+}
+@media screen and (max-width: 1000px){
+   .box4{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+}
+.info{
+    color: ;
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 60px;
 }
