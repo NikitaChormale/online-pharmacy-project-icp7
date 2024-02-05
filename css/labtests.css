@@ -1,37 +1,23 @@
+
 .box1 {
-    width: 1080px;
-    height: 100px;
-    margin:0 auto;
     display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1050px;
 }
-.box1-cards {
-    width: 1050px; 
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
-}
-.smallbox {
+.box1-cards{
     width: 210px;
     height: 80px;
-    border: 1px solid black;
-    border-radius: 40px;
-    display: flex;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 50px;
     justify-content: center;
+    align-items: center;
+    display: flex;
+   
 }
-@media screen and (max-width:900px){
-    .box1-cards{
-        flex-wrap: wrap;
-        
-    }
-    .box1{
-        height: 300px;
-    }
-    
-}
-.dis{
+.disc{
     font-size:20px; 
     color:azure;
     background-color: #10847e;
@@ -44,6 +30,7 @@
     background-color: #c2e5ee;
     margin: 20px 0;
     height: 250px;
+  
 }
 .square{
     width: 90%;
@@ -52,18 +39,9 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    }
-    @media screen and (min-width:600px),(max-width: 900px){
-        .square{
-         flex-wrap: wrap;
-         justify-content: space-around;
-         }
-     }
-     @media screen and (max-width: 590px){
-        .box2{
-            flex-direction: column;
-        }
-     }
+    flex-wrap: wrap;
+}
+
 .testcard{
     width: 220px;
     height: 194px;
@@ -74,6 +52,9 @@
     border: none;
     position: relative;
     transition: 1s;
+}
+.box2-marrgin{
+    margin: 10px;
 }
 .book-btn{
     position: absolute;
@@ -118,18 +99,19 @@
 }
 .box3-view{
     position: relative;
-    left: 700px;
+    left: 800px;
     font-size: 15px;
 }
 .box3-allcard{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .box3-card{
     margin: 25px 10px;
-    width: 270px;
-    height: 194px;
+    width: 250px;
+    height: 174px;
     border: 0.5px solid #f2f2f2;
     border-radius: 5px;
     padding-left: 20px;
@@ -146,7 +128,7 @@
 }
 .box3-p{
     font-size: 10px;
-    margin: 0;
+    margin: 5px 0;
 }
 .box3-card-icon{
      height: 20px;   
@@ -158,7 +140,7 @@
     
 }
 .box4-cards{
-    width: 200px;
+    width: 210px;
     height: 170px;
     padding: 20px;
     margin: 20px;
