@@ -3,16 +3,7 @@
 color theme--green and whhite
 green:#10844e white:#fff
 
-btn: color:#10844e 
-
+btn: color:#10844e
 
 */
-.header{
-    border: 5px;
-    height: 500px;
-    width: 300px;
-    background-color:#10844a;
-    display: inline-block;
-    margin-right: 5px;
-    border-radius: 10px;
-}
+
