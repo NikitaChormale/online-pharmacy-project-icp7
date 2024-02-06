@@ -1,13 +1,37 @@
+.all{
+    height: 400px;
+    width: 1000px;
+    display: inline;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+}
+body{
+    background-color: aliceblue;
+}
+@media screen and {max-width: 600px;}
+{
+    .checkuppart{
+        flex-wrap: wrap;
+    }
+
+}
+
 .title{
     text-align: center;
     color:white ;
-    background-color:green;
+    background-color:#0a534f;
     font-size: large;
     margin: 10px;
     padding-top:5px;
-    display:block;
-    
+    display:block; 
 }
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .titleone{
     text-align:center;
     margin:10px;
@@ -22,6 +46,7 @@
     width: 150px;
     padding: 10px;
     font-size: 16px;
+    display: inline;
 }
 .main{
     margin: 10px;
@@ -29,10 +54,20 @@
 }
 .img{
     width:50px;
+
 }
 .footer{
-    background-color: #0a534f;
+    background-color: #2c3e50;;
     text-align: center;
     padding: 10px;
+    color:white;
+}
+input[type="submit"]:hover{
+    background-color: #27ae60;
+}
+.btn{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(72, 28, 143);
     color:white;
 }

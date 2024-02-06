@@ -1,9 +1,23 @@
 .heading
 {
-    background-color: green;
+    color: white;
+    background-color:#0a534f;
 font-size: larger;
 padding: 10px;
 text-align: center;
+}
+@media  screen and {max-width: 1000px}{
+    .checkuppart{
+        flex-wrap: wrap;
+    }
+
+}
+
+input[type="submit"]{
+    background-color: #d81010;
+    color:black;
+    padding: 5px;
+    margin: 5px;
 }
 .checkuppart
 {
@@ -35,4 +49,10 @@ text-align: center;
     width:180px;
     height:100px;
 
+}
+.footer{
+    background-color: #2c3e50;;
+    text-align: center;
+    padding: 10px;
+    color:white;
 }

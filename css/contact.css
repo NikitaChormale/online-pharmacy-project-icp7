@@ -79,19 +79,10 @@ input[type="submit"] {
     
 }
 
-input[type="submit"]:hover {
-    background-color: #27ae60; /* Darker Green on Hover */
+input[type="submit"]:hover{
+    background-color: #27ae60;
 }
 
-footer {
-    background-color: #2c3e50; /* Dark Gray-Blue */
-    color: white;
-    text-align: center;
-    padding: 0.2em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 /* Media Query for smaller screens */
 /* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
