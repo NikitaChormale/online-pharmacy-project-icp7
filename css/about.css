@@ -1,0 +1,71 @@
+body{
+    background-color: #fbf8f8;
+}
+.about-container{
+    margin: 50px auto;
+    background-color: #fff;
+}
+.about-discription{
+     text-align: justify;
+     font-size: 18px;
+}
+.about-heading{
+    font-size: 50px;
+    text-align: start;
+    margin-left: 50px;
+}
+.about-disc{
+    text-align: justify;
+}
+.about-disc-heading{
+    margin: 0;
+    
+}
+.about-disc{
+    margin: 20px 50px;
+    font-size: 18px;
+}
+.about-heading2{
+    font-size: 30px;
+    margin: 20px;
+    background-color: paleturquoise;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+.team-section-heading{
+    font-size: 40px;
+}
+.team-section{
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-cards{
+    height: 250px;
+    width: 220px;
+    margin: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0,.2);
+    border-bottom: 5px solid #000;
+}
+.team-icon{
+    height: 100px;
+}
+.team-member-name{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.team-member-info{
+    font-size: 15px;
+}
+.team-social{
+    margin: 5px;
+}
+
