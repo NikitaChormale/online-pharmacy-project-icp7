@@ -5,27 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> checkup page 2</title>
     <link rel="stylesheet" href="./../css/checkup2.css"/>
-    <link rel="stylesheet" href="./../css/dental.css"/>
+    <link rel="stylesheet" href="./../css/style.css"/>
+    <link rel="stylesheet" href="./../css/index.css"/>
 </head>
 <body>
-  <a href="./login.html" class="btn">LOGIN</a>
-    <a href="./doctors.html"class=btn>DOCTOR PAGE</a>
-    <a href="./medicine.html"class=btn>MEDICINE PAGE</a>
-    <a href="./account.html"class=btn>ACCOUNT-PAGE</a>
-    <a href="./contact.html"class=btn>CONTACT PAGE</a>
-    <a href="./healthcarep.html"class=btn> HEALTHCARE PAGE</a>
-    <a href="./dental.html"class=btn>DENTAL PAGE</a>
-    <a href="./labtests.html"class=btn>LABTEST PAGE</a>
-    <a href="./ordermed.html"class=btn>ORDER PAGE</a>
+          <!-- font awesome cdn link -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+          <!-- custome css file link -->
+          <link rel="stylesheet" href="./css/style.css">
+          <link rel="stylesheet" href="./css/index.css">
+       </head>
+   
+       <body>
+   
+      <!-- header section starts -->
+   
+      <header>
+   
+     <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+   
+        <a href="#" class="logo">pharmacare</a>
+        
+        <nav class="navbar">
+           <a href="#medicine"> medicine</a>
+           <a href="#healthcare"> healthcare</a>
+           <a href="./pages/labtests.html"> labtastes</a>
+           <a href="#healthblog"> healthblog</a>
+           <a href="#products"> products</a>
+           <a href="#offers">offers</a>
+           <a href="././pages/contact.html"> contact</a>
+   
+          <!-- <a href="#login">login</a>-->
+        </nav>
+   
+        <div class="icons">
+           <i class="fas fa-search" id="search-btn"></i>
+           <i class="fas fa-user" id="login-btn"></i>
+           <i class="fas fa-cart-shopping" id="cart shopping"></i>
+       </div>
+    </header>
+       <!-- header section ends-->
     <h2 class="heading"> Patient Check-Out Details</h2>
     <div class="checkuppart">
         <div class="info">
             <h3>  Complete Basic Health Checkup Test  </h3>
-            <h3><b> ₹2599 </b> for <del>₹5399</del></h3>
+          </br>
+            <h3><b> ₹2599 </b>for <del>₹5299</del></h3>
+          </br>
             <h4 class="offer">51% OFF</h4></br>
         </br>
-        <select id="selectLanguage">
-            <option class="option">BOOK FOR :</option>
+        <select id="selectbook" class="opt">
+            <option>BOOK FOR:</option>
             <option>1 patient</option>
             <option>2 patient</option>
             <option>3 patient</option>
@@ -35,12 +66,13 @@
         </div>
         <div class="info">
         <h3>Comprehensive Full Body Checkup Test With Vitamin D & B12</h3>
-       <h3><b> ₹1799 </b> for <del>₹4899</del></h3>
+      </br>
+       <h3><b> ₹1799 </b> for <del> ₹4899</del></h3>
       </br>
        <h4 class="offer">63% OFF</h4>
       </br>
         </br>
-      <select id="selectLanguage">
+      <select id="selectbook" class="opt">
         <option class="option">BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
@@ -51,12 +83,13 @@
     </div>
     <div class="info">
         <h3>Healthy 2024 Full Body Checkup</h3>
+      </br>
         <h3><b> ₹1249 </b> for <del>₹3599</del></h3>
         </br>
         <h4 class="offer">65% OFF</h4></br>
     </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+    <select id="selectbook" class="opt">
+        <option>BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -66,12 +99,14 @@
     </div>
     <div class="info">
         <h3>Aarogyam Full Body Checkup With Vitamins</h3>
+      </br>
         <h3><b> ₹2299 </b> for <del>₹4599</del></h3>
+    </br>
         <h4 class="offer">50% OFF</h4>
       </br>
     </br>
-       <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+       <select id="selectbook" class="opt">
+        <option>BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -81,13 +116,14 @@
     </div>
     <div class="info">
         <h3>Aarogyam Full Body Checkup Test </h3>
-        <h3><b> ₹1699 </b> for <del>₹3299</del></h3>
+      </br>
+        <h3><b> ₹1699</b> for <del>₹3299</del></h3>
       </br>
         <h4 class="offer">48% OFF</h4>
       </br>
     </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+    <select id="selectbook" class="opt">
+        <option>BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -99,11 +135,13 @@
     <div class="checkuppart">
         <div class="info">
         <h3>Premium Full Body Checkup Test </h3>
+      </br>
         <h3><b> ₹5499 </b> for <del>₹10999</del></h3>
-        <h4 class="offer">50% OFF</h4></br>
+      </br>
+      <h4 class="offer">50% OFF</h4></br>
        
     </br>
-    <select id="selectLanguage">
+    <select id="selectbook" class="opt">
         <option class="option">BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
@@ -114,12 +152,14 @@
     </div>
     <div class="info">
         <h3>Complete Heart Health Checkup Test </h3>
+      </br>
         <h3><b> ₹5499 </b> for <del>₹10999</del></h3>
-        <h4 class="offer">41% OFF</h4></br>
-      
+      </br>
+        <h4 class="offer">41% OFF</h4>
     </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+  </br>
+    <select id="selectbook" class="opt">
+        <option>BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -129,12 +169,14 @@
     </div>
     <div class="info">
         <h3>Women's Advanced Healthcare Package</h3>
+      </br>
         <h3><b> ₹1699 </b> for <del>₹3299</del></h3>
-        <h4 class="offer">51% OFF</h4></br>
-    
+      </br>
+        <h4 class="offer">51% OFF</h4>
     </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+  </br>
+    <select id="selectbook" class="opt">
+        <option >BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -144,13 +186,14 @@
     </div>
     <div class="info">
         <h3>Women's Master Checkup With Cancer & Arthritis Screening</h3>
+      </br>
         <h3><b> ₹3699 </b> for <del>₹5699</del></h3>
       </br>
-        <h2 class="offer">60% OFF</h2>
+        <h4 class="offer">60% OFF</h4>
     </br>
   </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+    <select id="selectbook" class="opt">
+        <option>BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -162,11 +205,12 @@
         <h3>Men's Master Checkup With Cancer & Arthritis Screening</h3>
       </br>
         <h3> <b> ₹2260 </b> for <del>₹5649</del></h3>
+      </br>
         <h4 class="offer">60% OFF</h4>
     </br>
   </br>
-    <select id="selectLanguage">
-        <option class="option">BOOK FOR :</option>
+    <select id="selectbook" class="opt">
+        <option >BOOK FOR :</option>
         <option>1 patient</option>
         <option>2 patient</option>
         <option>3 patient</option>
@@ -176,6 +220,54 @@
     </div>
 </div>
 </div>
-<h3 class="footer">@2024 Online Pharmacy Store</h3>
+ <!--Footer-->
+ <footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Carrers</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Sell With PharmaCare</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                  <li><a href="#">FAQS</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Order Status</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+              <h4>Our Services</h4>
+              <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Carrers</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Sell With PharmaCare</a></li>
+              </ul>
+          </div>
+
+          <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                  <ul>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </ul>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</footer>
 </body>
 </html>
