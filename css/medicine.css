@@ -54,3 +54,10 @@ span{
     box-shadow: 0px 0px 4px 4px #acacac;
 }
 
+@media screen and (max-width:550px) {
+    .card1{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

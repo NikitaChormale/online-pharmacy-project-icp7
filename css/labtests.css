@@ -116,9 +116,38 @@
     text-align: justify;
     padding: 20px;
 }
-.info{
+.information{
     justify-content: center;
     text-align: justify;
     font-size: 20px;
     padding: 20px 90px;
+}
+@media screen and (max-width:757px) {
+    .test-container-cards{
+        margin-bottom: 20px;
+    }
+    .package-container-cards{
+        margin-bottom: 20px;
+    }
+    .lab-container-cards{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:536px) {
+    .test-container-cards{
+        width: 100%;
+    }
+    .package-container-cards{
+        width: 100%;
+    }
+    .lab-container-cards{
+        width: 100%;
+    }
+}
+@media screen and (max-width:416px) {
+    .nav-container-cards{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
 }
