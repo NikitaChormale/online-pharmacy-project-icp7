@@ -4,6 +4,7 @@
     color: #0a534f;
     font-size: 70px;
     text-align: center;
+    padding: 80px;
 }
 .cart{
     display: flex;
@@ -47,5 +48,4 @@
     font-size: 30px;
     border-radius: 5px;
 }
-
 
