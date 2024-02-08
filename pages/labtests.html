@@ -17,49 +17,48 @@
       <link rel="stylesheet" href="./../css/style.css"/>
 </head>
 <body>
-    <!-- Header starts here-->
-   
-    <header>
+    <!-- header section starts -->
 
-        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
-      
-           <a href="/index.html" class="logo">pharmacare</a>
-           
-           <nav class="navbar">
-            <a href="./pages/medicine.html"> Medicine</a>
-            <a href="/pages/healthcarep.html"> Healthcare</a>
-            <a href="./pages/labtests.html"> LabTests</a>
-            <a href="#healthblog"> Healthblog</a>
-            <a href="/pages/healthcarep.html">Order Meds</a>
-            <a href="#offers">Check-Up</a>
-            <a href="././pages/contact.html">Contact</a>
-    
-           <!-- <a href="#login">login</a>-->
-         </nav>
-      
-           <div class="icons">
-              <i class="fas fa-search" id="search-btn"></i>
-              <i class="fas fa-user" id="login-btn"></i>
-              <i class="fas fa-cart-shopping" id="cart shopping"></i>
-          </div>
-       </header>
+   <header>
 
-    <!-- Header ends here-->
+    <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+  
+       <a href="/index.html" class="logo">pharmacare</a>
+       
+       <nav class="navbar">
+          <a href="/pages/medicine.html"> Medicine</a>
+          <a href="/pages/healthcarep.html"> Healthcare</a>
+          <a href="/pages/labtests.html"> LabTests</a>
+          <a href="/pages/"> Healthblog</a>
+          <a href="/pages/ordermed.html">Order Meds</a>
+          <a href="/pages/checkup.html">Check-Up</a>
+          <a href="/pages/contact.html">Contact</a>
+  
+         <!-- <a href="#login">login</a>-->
+       </nav>
+  
+       <div class="icons">
+          <i class="fas fa-search" id="search-btn"></i>
+          <i class="fas fa-user" id="login-btn"></i>
+          <i class="fas fa-cart-shopping" id="cart shopping"></i>
+      </div>
+   </header>
+      <!-- header section ends-->
 
     <!--Lab tests body starts-->
 
     <div class="nav-container">
         <div class="nav-container-cards">
-            <h3><i class="fa-solid fa-vial-circle-check nav-container-cards-icons" style="color: #e51f1f;"></i><br>All Tests</h3>
+            <a href="#alltest" class="nav-links"><h3><i class="fa-solid fa-vial-circle-check nav-container-cards-icons" style="color: #e51f1f;"></i><br>All Tests</h3></a>
         </div>
         <div class="nav-container-cards">
-            <h3><i class="fa-solid fa-notes-medical nav-container-cards-icons" style="color: #e60f0f;"></i><br>Health packages</h3>
+            <a href="#health packages" class="nav-links"><h3><i class="fa-solid fa-notes-medical nav-container-cards-icons" style="color: #e60f0f;"></i><br>Health packages</h3></a>
         </div>
         <div class="nav-container-cards">
-            <a href="./ordermed.html"><h3><i class="fa-solid fa-file-prescription nav-container-cards-icons" style="color: #e60a0a;"></i><br>Upload Prescription</h3></a>
+            <a href="./ordermed.html" class="nav-links"><h3><i class="fa-solid fa-file-prescription nav-container-cards-icons" style="color: #e60a0a;"></i><br>Upload Prescription</h3></a>
         </div>
         <div class="nav-container-cards">
-            <a href="./contact.html"><h3><i class="fa-solid fa-phone nav-container-cards-icons" style="color: #e21708;"></i> <br>Book on Call</h3></a>
+            <a href="./contact.html" class="nav-links"><h3><i class="fa-solid fa-phone nav-container-cards-icons" style="color: #e21708;"></i> <br>Book on Call</h3></a>
         </div>
     </div>
 
@@ -67,7 +66,7 @@
         <p>Save flat 5% extra on allopathic medicines & enjoy FREE delivery with PLUS membership</p>
     </div>
 
-    <h2 class="lab-container-heading" >Available Checkups<Small class="lab-container-view">View All</Small></h2>
+    <h2 class="lab-container-heading" id="alltest" >Available Checkups<Small class="lab-container-view">View All</Small></h2>
     <div class="test-container">
         <div class="test-container-cards">
              <img src="./../icons/test.png" class="test-container-icons" alt="heart">
@@ -135,7 +134,7 @@
         </div>
     </div>
 
-    <h2 class="lab-container-heading" >Affordable Health Packages <Small class="package-container-view">View All</Small></h2>
+    <h2 class="lab-container-heading" id="health packages" >Affordable Health Packages <Small class="package-container-view">View All</Small></h2>
     <div class="package-container">
         <div class="package-container-cards">
             <image src="./../icons/package.png" class="lab-container-icon"></image>

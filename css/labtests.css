@@ -18,6 +18,10 @@
     margin: 5px;
     height: 20px;
 }
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
 .discount{
     font-size:20px; 
     color:azure;
@@ -54,7 +58,7 @@
     border-radius: 10px;
     color: #ffff;
     font-size: 17px;
-    background-color: #10847e;
+    background-color: #0a534f;
 }
 .test-container-cards-margin{
     margin-bottom: 15px;
