@@ -138,4 +138,32 @@ header .icons i{
 header .icons i:hover{
     color:#fff;
 }
+@media screen and (max-width:900px) {
+    .hamburger{
+        visibility: visible;
+    }
+}
+@media screen and (min-width:901px) {
+    .hamburger{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .navbar{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+}
+.hamburger{
+    position: fixed;
+    right: 10px;    
+}
+@media screen and (max-width:820px) {
+    .home{
+        background-size: auto;
+    }
+}
 
