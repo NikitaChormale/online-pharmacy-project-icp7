@@ -7,15 +7,22 @@ body{
     font-size: 60px;
     text-align: center;
     padding: 80px;
-    margin-top: 50px;
+    margin-top: 40px;
     font-family: "Times New Roman", Times, serif;
+}
+.headingline{
+    color: white;
+    background-color:#0a534f;
+font-size: larger;
+padding: 10px;
+text-align: center;
 }
 .main-card{
     padding: 20px 20px 20px 20px;
     margin: 0px 0px 0px 20px;
 }
 .card1{
-    height: 430px;
+    height: 400px;
     width: 280px;
     background-color: white;
     display: inline-block;
@@ -32,8 +39,8 @@ body{
 }
 
 .main-heading{
-    padding: 0px 70px 0px 40px;
-    font-size: 30px;
+    padding: 0px 40px 0px 40px;
+    font-size: 20px;
     color: #0a534f ;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: "Times New Roman", Times, serif;
