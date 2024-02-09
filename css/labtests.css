@@ -56,9 +56,9 @@
     border: 1px solid;
     padding: 5px 20px;
     border-radius: 10px;
-    color: #ffff;
+    color: black;
     font-size: 17px;
-    background-color: #0a534f;
+    background-color: paleturquoise;
 }
 .test-container-cards-margin{
     margin-bottom: 15px;
@@ -150,4 +150,14 @@
         border-radius: 20px;
     }
     
+}
+.head{
+    position:fixed;
+    top:0; left:0; right:0;
+    background:#106c67;
+    z-index:1000;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px;
 }
