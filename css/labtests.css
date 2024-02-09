@@ -20,14 +20,14 @@
 .disc{
     font-size:20px; 
     color:azure;
-    background-color: #10847e;
+    background-color:#10847e;
     margin: 0 120px;
     padding: 5px;
     text-align: center;
     border-radius: 5px;
 }
 .box2{
-    background-color: #c2e5ee;
+    background-color: #c2e5ee; 
     margin: 20px 0;
     height: 250px;
   
