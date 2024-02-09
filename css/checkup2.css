@@ -3,8 +3,9 @@
     color: white;
     background-color:#0a534f;
 font-size: larger;
-padding: 10px;
+padding-top: 10px;
 text-align: center;
+margin-top: 50px;
 }
 .book-for-patient{
     background-color: #0a534f;
