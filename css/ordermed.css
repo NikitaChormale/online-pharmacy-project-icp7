@@ -1,0 +1,82 @@
+.heading{
+    width: 100%;
+    color: #0a534f;
+    font-size: 60px;
+    text-align: center;
+    padding: 80px;
+}
+.medicine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    padding-left: 150px;
+    border-radius: 5px;
+}
+.card{
+    background-color: #0a534f;
+    color: #ffffff;
+    height:300px;
+    width: 800px;
+    border: solid;
+    text-align: center;
+}
+.card2{
+    height: 300px;
+    width:400px ;
+    text-align: center;
+    display:inline-block;
+}
+.title{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.menu{
+    font-size: 30px;
+}
+.icon{
+    height: 40px;
+}
+.number{
+    color: #ffffff;
+    font-size: 20px;
+}
+.btn{
+    background-color:#0a534f;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.info{
+    justify-content: center;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px 60px;
+}
+@media screen and (max-width:970px) {
+    .card2{
+        display: none;
+    }
+}   
+@media screen and (max-width:820px) {
+    .card{
+        width: 600px;
+    }
+}   
+@media screen and (max-width:600px) {
+    .card{
+        width: 500px;
+    }
+}   
+@media screen and (max-width:500px) {
+    .card{
+        width: 400px;
+    }
+}   
