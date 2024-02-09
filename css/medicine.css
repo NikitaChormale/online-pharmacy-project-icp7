@@ -68,3 +68,10 @@ span{
     box-shadow: 3px 0px 5px 5px black;
   }
 
+@media screen and (max-width:550px) {
+    .card1{
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+}

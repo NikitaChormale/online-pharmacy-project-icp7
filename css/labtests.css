@@ -25,14 +25,32 @@
 .discount{
     font-size:20px; 
     color:azure;
+<<<<<<< HEAD
+    background-color:#10847e;
+    margin: 0 120px;
+=======
     background-color: #10847e;
+>>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
     padding: 5px;
     margin: 20px;
     text-align: center;
     border-radius: 5px;
     font-size: 30px;
 }
+<<<<<<< HEAD
+.box2{
+    background-color: #c2e5ee; 
+    margin: 20px 0;
+    height: 250px;
+  
+}
+.square{
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+=======
 .test-container{
+>>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -116,9 +134,38 @@
     text-align: justify;
     padding: 20px;
 }
-.info{
+.information{
     justify-content: center;
     text-align: justify;
     font-size: 20px;
     padding: 20px 90px;
+}
+@media screen and (max-width:757px) {
+    .test-container-cards{
+        margin-bottom: 20px;
+    }
+    .package-container-cards{
+        margin-bottom: 20px;
+    }
+    .lab-container-cards{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:536px) {
+    .test-container-cards{
+        width: 100%;
+    }
+    .package-container-cards{
+        width: 100%;
+    }
+    .lab-container-cards{
+        width: 100%;
+    }
+}
+@media screen and (max-width:416px) {
+    .nav-container-cards{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
 }
