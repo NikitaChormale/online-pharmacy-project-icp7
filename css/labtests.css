@@ -25,18 +25,14 @@
 .discount{
     font-size:20px; 
     color:azure;
-<<<<<<< HEAD
-    background-color:#10847e;
-    margin: 0 120px;
-=======
     background-color: #10847e;
->>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
     padding: 5px;
     margin: 20px;
     text-align: center;
     border-radius: 5px;
     font-size: 30px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 .box2{ 
@@ -64,6 +60,9 @@
 =======
 >>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
 >>>>>>> d3b4fac1b03e7d4b0c88e1a0ce64bf96528bc6ce
+=======
+.test-container{
+>>>>>>> 49024e5de1e123279d57acf26f157f806612e8c3
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
