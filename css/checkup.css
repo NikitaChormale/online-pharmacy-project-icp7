@@ -42,8 +42,8 @@
     padding: 8px;
 }
 .Patient-address{
-     height:10px;
-    width:60%;
+     height:15px;
+    width:50%;
     padding: 8px;
 }
 .btn-Register{
@@ -51,6 +51,7 @@
     color: white;
     padding: 10px 15px;
     font-size: 15px;
+    margin:20px;
 }
 .btn-next-page{
     background-color: #0a534f;
