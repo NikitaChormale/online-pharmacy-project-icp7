@@ -12,10 +12,10 @@ body{
 }
 .headingline{
     color: white;
-    background-color:#0a534f;
-font-size: larger;
-padding: 10px;
-text-align: center;
+    background-color:#10847e;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
 }
 .main-card{
     padding: 20px 20px 20px 20px;
@@ -27,7 +27,7 @@ text-align: center;
     background-color: white;
     display: inline-block;
     margin: 15px;
-    box-shadow: 2px 2px 5px 2px black;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -41,14 +41,14 @@ text-align: center;
 .main-heading{
     padding: 0px 40px 0px 40px;
     font-size: 20px;
-    color: #0a534f ;
+    color: #10847e ;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-family: "Times New Roman", Times, serif;
 }
 .info{
     font-size: 20px;
     padding: 0px 20px;
-    color: #0a534f ;
+    color: #10847e ;
 }
 
 .price2{
@@ -65,15 +65,19 @@ span{
     font-size: 15px;
     padding: 5px;
     width: 100px;
-    color: white;
-    background-color: #0a534f;
+    color: rgb(0, 0, 0);
+    background-color: paleturquoise;
     border-radius: 7px;
+    border: 1px solid;
     margin: 7px 10px 5px 80px;
+<<<<<<< HEAD
     box-shadow: 3px 0px 5px 2px black;
+=======
+
+    
+>>>>>>> 1382197ca7aff1527dd6020baf352ed2af399128
 }
-.btn2:hover {
-    box-shadow: 3px 0px 5px 5px black;
-  }
+
 
 @media screen and (max-width:550px) {
     .card1{

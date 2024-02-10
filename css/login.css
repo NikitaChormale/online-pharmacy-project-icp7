@@ -72,14 +72,15 @@ body{
     margin-left: 20px;
     padding: 10px 10px;
     margin-top: 10px;
-    background: #0a534f;
-    color: #fff;
+    background: paleturquoise;
+    color: #000000;
     border: none;
+    font-size: 20px;
     
     
 }
 .login-form-container form .btn:hover{
-    color: paleturquoise;
+    text-decoration: underline;
 }
 
 .login-form-container form p{
