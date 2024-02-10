@@ -25,24 +25,14 @@
 .discount{
     font-size:20px; 
     color:azure;
-    background-color:#10847e;
-    margin: 0 120px;
+    background-color: #10847e;
     padding: 5px;
     margin: 20px;
     text-align: center;
     border-radius: 5px;
     font-size: 30px;
 }
-.box2{
-    background-color: #c2e5ee; 
-    margin: 20px 0;
-    height: 250px;
-  
-}
-.square{
-    width: 90%;
-    padding: 20px;
-    margin: 0 auto;
+.test-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

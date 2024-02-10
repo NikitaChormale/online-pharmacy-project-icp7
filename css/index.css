@@ -200,43 +200,6 @@
 .btn:hover{
     color:blue;
 }
-<<<<<<< HEAD
 /*products section ends*/
-=======
-
-
-
-.info{
-    margin-left: 60px;
-    display: inline-block;
-    height:100%;
-    width: 40%;
-    border-radius: none;
-    border:  solid #fff;
-    padding: 20px 10px;
-    box-shadow:  1px 2px px  grey;
-}
-
-  
-.description{
-    height: 100%;
-}
-
-.discription h3{
-    color: gray;
-}
-.description b{
-    font-size: 15px;
-}
-
-.feedback{
-    font-size: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-   /* margin-right: 300px;*/
-   background:#e6ffff;
-   color:gray;
-}
->>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
 
 
