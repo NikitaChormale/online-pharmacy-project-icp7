@@ -4,81 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check-Up Form</title>
-    <link rel="stylesheet" href="./../css/checkup.css"/>
+    <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+       <!-- custome css file link -->
+    <link rel="stylesheet" href="./../css/checkup.css"/>
+    <link rel="stylesheet" href="./../css/index.css"/>
+    <link rel="stylesheet" href="./../css/style.css"/> 
 </head>
-<body><div class="allcode">
-    <a href="./login.html"class=btn>LOGIN</a>
-    <a href="./doctors.html"class=btn>DOCTOR PAGE</a>
-    <a href="./medicine.html"class=btn>MEDICINE PAGE</a>
-    <a href="./account.html"class=btn>ACCOUNT-PAGE</a>
-    <a href="./contact.html"class=btn>CONTACT PAGE</a>
-    <a href="./healthcarep.html"class=btn> HEALTHCARE PAGE</a>
-    <a href="./dental.html"class=btn>DENTAL PAGE</a>
-    <a href="./labtests.html"class=btn>LABTEST PAGE</a>
-    <a href="./ordermed.html"class=btn>ORDER PAGE</a>
-   <form>
-    
-    
-    <div class="title" >
-    <h3 >Medical Check-Out Form</h3>
-    <img src="./../icons/restricted_png" class="img"/>
-</div>
-<div class="all">
-   <div class="Patientdetails">
-     <h2 class="titleone">PATIENT DETAILS</h2>
-     <hr/>
-    </br>
+<body>
+    <header>
+
+        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+      
+           <a href="#" class="logo">pharmacare</a>
+           
+           <nav class="navbar">
+              <a href="./medicine.html"> medicine</a>
+              <a href="././healthcarep.html"> healthcare</a>
+              <a href="./pages/labtests.html"> labtastes</a>
+              <a href="./healthblog"> healthblog</a>
+              <a href="./"> products</a>
+              <a href="#offers">offers</a>
+              <a href="././contact.html"> contact</a>
+      
+             <!-- <a href="#login">login</a>-->
+           </nav>
+      
+           <div class="icons">
+              <i class="fas fa-search" id="search-btn"></i>
+              <i class="fas fa-user" id="login-btn"></i>
+              <i class="fas fa-cart-shopping" id="cart shopping"></i>
+          </div>
+       </header>
+          <!-- header section ends-->
+      
+          <!--form section starts-->
+    <form>
+        <div class="medical-code-all">
+            <div class="Patientdetails">
+     <h2 class="titleone">Medical Check-Out Details</h2>
+    <label for="first name"><B>Patient Full Name:</B></label>
+    <textarea id="message" name="message" rows="1.5" class="Patient-address"></textarea>
 </br>
-    <label for="first name" class="main"><B>Patient First Name:</B></label>
-        <input type="text" id="first name" required/>
-        <label for="Last name"class="main"> <B>Patient Last Name:</B></label>
-        <input type="text" id="Last name" required/>
-    </br>
 </br>
-<label for="birth" class="main"><b>Birth Date:</b></label>
-<input type="birth" id="birth Date" required/>
+<label for="date"><b>Birth Date:</b></label>
+<input type="date" required/>
+</br>
+</br>
 <label for="mobile no"class="main"><B>Mobile No:</B></label>
 <input type="text" id="text" required/>
 </br>
 </br>
-<label for="age"class="main"><B>Age:</B></label>
+<label for="age"><B>Age:</B></label>
 <input type="age" id="age" required/>
 </br>
 </br>
     <label for="Address" class="main"><B>Address:</B></label>
-        <input type="text" id="Address" required/>
-    
-
+    <textarea id="message" name="message" rows="1.5" class="Patient-address"></textarea>
+</br>
+</br>
     <label for="tal"class="main"><B>Tal:</B></label>
 <input type="tal" id="tal" required/>
-
+</br>
+</br>
 <label for="dist"class="main"><B>Dist:</B></label>
 <input type="dist" id="dist"required />
-</br> </br>
-<B class="main">Select Gender:</B>
+</br> 
+</br>
+<B class="main">Select Gender:</B></br>
 <input type="radio" name="gender" id="male" />
-<label for="male">Male</label><br />
+<label for="male">Male</label></br>
 <input type="radio" name="gender" id="female" />
 <label for="female">Female</label>
 
 </br>
 <label for="message"><b>Patient Problem:</b></label>
-<textarea id="message" name="message" rows="1.5"></textarea>
+<textarea id="message" name="message" rows="1.5" class="Patient-problem"></textarea>
 </br>
 </br>
-<button class="btn">Register</button>
-</br>
-<div class="mainimg">
-<a href="./checkup2.html"> Full Body CheckUp</a>
-<img src="./../icons/stethoscope_png" class="img"/>
+<button class="btn-Register">Register</button>
+<a href="./checkup2.html"class="btn-next-page"> Full Body CheckUp</a>
 </div>
 </div>
 </div>
+</div>
+</div>
 </br>
-<h3 class="footer">@2024 Online Pharmacy Store</h3>
-
 </form>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Carrers</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Sell With PharmaCare</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Carrers</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Sell With PharmaCare</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <ul>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </ul>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+  </footer>
+</div>
+</div>
 </div>
 </body>
-</html><
+</html>

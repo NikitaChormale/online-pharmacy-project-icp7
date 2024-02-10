@@ -16,11 +16,11 @@
     height: 430px;
     width: 750px;
     font-size: 25px;
-    border: 1px solid #0a534f;
+    border: 1px solid #106c67;
     padding:  30px;
 }
 .later{
-    color: #0a534f;
+    color: #106c67;
     padding-left: 10px;
 }
 .icon{
@@ -37,12 +37,12 @@
 .cart-total{
     height: 200px;
     width: 600px;
-    border: 1px solid #0a534f;
+    border: 1px solid #106c67;
     padding-left: 40px;
     padding-top: 30px;
 }
 .btn{
-    background-color: #0a534f;
+    background-color: #106c67;
     color: #ffffff;
     padding: 10px 50px;
     font-size: 30px;
