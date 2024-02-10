@@ -17,12 +17,13 @@
 .titleone{
     text-align:center;
     margin:10px;
-    color: white;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 }
 .Patientdetails{
     display: block;
-    font-size:13px;
-    color: white; 
+    font-size:20px;
+    color: rgb(11, 11, 11); 
     padding-left: 40px;
     background-color: #3a8f8bc1; /* Lighter Greenish-White */
     border-radius: 8px;
@@ -47,14 +48,14 @@
     padding: 8px;
 }
 .btn-Register{
-    background-color: #0a534f;
+    background-color: #10847e;
     color: white;
     padding: 10px 15px;
     font-size: 15px;
     margin:20px;
 }
 .btn-next-page{
-    background-color: #0a534f;
+    background-color: #10847e;
     color: white;
     padding: 10px 15px;
     font-size: 15px;
@@ -74,6 +75,9 @@
     }
 
 }
+.form-margin{
+    margin-left: 120px;
 
+}
     
 

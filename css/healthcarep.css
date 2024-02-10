@@ -1,7 +1,7 @@
 .heading{
-  background-color: rgb(10 83 79);
   padding: 20px;
-  color: white;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
   scale: 1.5;
   margin: 50px 0px 10px 0px;
   text-align: center;
