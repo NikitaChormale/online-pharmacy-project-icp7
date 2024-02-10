@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 80px;
 }
 .nav-container-cards{
     height: 70px;
@@ -13,6 +14,7 @@
     text-align: center;
     margin-top: 5px;
     font-size:18px;
+    
 }
 .nav-container-cards-icons{
     margin: 5px;
@@ -32,37 +34,7 @@
     border-radius: 5px;
     font-size: 30px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-.box2{ 
-    background-color: #c2e5ee;
-=======
-.box2{
-    background-color: #c2e5ee; 
->>>>>>> d3b4fac1b03e7d4b0c88e1a0ce64bf96528bc6ce
-    margin: 20px 0;
-    height: 250px;
-  
-}
-.square{
-    width: 90%;
-<<<<<<< HEAD
-    background-color:
-=======
->>>>>>> d3b4fac1b03e7d4b0c88e1a0ce64bf96528bc6ce
-    padding: 20px;
-    margin: 0 auto;
-=======
 .test-container{
-<<<<<<< HEAD
->>>>>>> 1d422a3677ec2506799e87d8ff8032da14e25232
-=======
->>>>>>> 0b70441123edeabc8f98d12811aa5409ef405f54
->>>>>>> d3b4fac1b03e7d4b0c88e1a0ce64bf96528bc6ce
-=======
-.test-container{
->>>>>>> 49024e5de1e123279d57acf26f157f806612e8c3
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -70,7 +42,7 @@
 }
 .test-container-cards{
     width: 220px;
-    height: 230px;
+    height: 260px;
     border: 1px solid;
     border-radius: 5px;
     background-color: #fff;
@@ -105,10 +77,12 @@
    display: flex;
    flex-wrap: wrap;
    margin: 30px 40px;
+   justify-content: center;
+   gap: 60px;
 }
 .lab-container-cards{
     width: 220px;
-    height: 210px;
+    height: 240px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: #fff;
@@ -132,9 +106,11 @@
     display: flex;
     flex-wrap: wrap;
     margin: 30px 20px;
+    justify-content: center;
+    gap: 60px;
 }
 .package-container-cards{
-    height: 300px;
+    height: 330px;
     width: 250px;
     border: 1px solid;
     text-align: center;
@@ -184,7 +160,7 @@
 .head{
     position:fixed;
     top:0; left:0; right:0;
-    background:#106c67;
+    background:#10847e;
     z-index:1000;
     display: flex;
     align-items: center;
