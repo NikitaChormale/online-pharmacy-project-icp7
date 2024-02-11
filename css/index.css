@@ -7,7 +7,6 @@
     box-sizing: border-box;
     text-transform: capitalize;
     outline: none; border: none;
-    text-decoration: none;
     transition: all .2s linear;
 }
 
@@ -40,6 +39,7 @@
     align-items: center;
     justify-content:space-between;
     padding: 10px;
+    
 }
 
 .head .logo{
@@ -47,6 +47,7 @@
      font-weight: bolder;
      color: #fff;
      text-transform: uppercase;
+     text-decoration: none;
 }
 
 
@@ -54,6 +55,7 @@
     color: paleturquoise;
     font-size: 20px;
     margin:0 8px;
+    text-decoration: none;
 }
 
 .head .navbar a:hover{
@@ -189,8 +191,8 @@
 
 .btn{
     margin:10px;
-    background-color: paleturquoise;
-    color:black;
+    background-color: rgb(0, 0, 0);
+    color:#ffffff;
     border-radius: 5px;
     padding: 4px 30px;
     margin-left:20px;
