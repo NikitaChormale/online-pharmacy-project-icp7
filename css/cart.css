@@ -4,7 +4,7 @@
     color: #0a534f;
     font-size: 70px;
     text-align: center;
-    padding: 80px;
+    padding: 40px;
 }
 .cart{
     display: flex;
@@ -28,7 +28,7 @@
 }
 .icon2{
     height: 20px;
-    padding-left: 130px;
+    padding-left: 280px;
 }
 .box-img{
     height: 200px;
@@ -37,12 +37,13 @@
 .cart-total{
     height: 200px;
     width: 600px;
-    border: 1px solid #106c67;
-    padding-left: 40px;
+    border: 1px solid #10847e;
     padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 .btn{
-    background-color: #106c67;
+    background-color: #10847e;
     color: #ffffff;
     padding: 10px 50px;
     font-size: 30px;
