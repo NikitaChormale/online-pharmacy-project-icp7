@@ -71,7 +71,7 @@
 }
 .lab-container-view{
     position: relative;
-    margin-left: 860px;
+    margin-left: 730px;
 }
 .lab-container{
    display: flex;
@@ -98,9 +98,14 @@
     margin-bottom: 10px;
 }
 
+.package-container-heading{
+    margin: 10px 60px;
+    font-size: 25px;
+}
+
 .package-container-view{
     position: relative;
-    margin-left: 800px;
+    margin-left: 660px;
 
 }
 .package-container{
@@ -108,7 +113,7 @@
     flex-wrap: wrap;
     margin: 20px 20px;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
 }
 .package-container-cards{
     height: 370px;
@@ -176,5 +181,18 @@
     .package-container{
        gap: 10px;
     }
+    .lab-container-heading{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .lab-container-view{
+        margin: 10px 20px ;
+    }
+    .package-container-heading{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .package-container-view{
+        margin: 10px 20px;
+    }
 }
-
