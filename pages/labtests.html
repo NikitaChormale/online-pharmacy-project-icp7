@@ -15,52 +15,53 @@
        <!-- css link -->
       <link rel="stylesheet" href="./../css/labtests.css"/>
       <link rel="stylesheet" href="./../css/style.css"/>
+      <link rel="stylesheet" href="./../css/index.css"/>
 
 </head>
 <body>
     <!-- header section starts -->
 
-   <header>
+    <header class="head">
 
-    <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
-  
-       <a href="/index.html" class="logo">pharmacare</a>
-       
-       <nav class="navbar">
-          <a href="/pages/medicine.html"> Medicine</a>
-          <a href="/pages/healthcarep.html"> Healthcare</a>
-          <a href="/pages/labtests.html"> LabTests</a>
-          <a href="/pages/"> Healthblog</a>
-          <a href="/pages/ordermed.html">Order Meds</a>
-          <a href="/pages/checkup.html">Check-Up</a>
-          <a href="/pages/contact.html">Contact</a>
-  
-         <!-- <a href="#login">login</a>-->
-       </nav>
-  
-       <div class="icons">
-          <i class="fas fa-search" id="search-btn"></i>
-          <i class="fas fa-user" id="login-btn"></i>
-          <i class="fas fa-cart-shopping" id="cart shopping"></i>
-      </div>
-      <i class="fa-solid fa-bars fa-2x hamburger" style="color: #ffffff;" ></i>
-   </header>
-      <!-- header section ends-->
+        <!--  <div id="menu-bar" class="fas fa-bars"></div> -->
+    
+         <a href="/index.html" class="logo">pharmacare</a>
+          <nav class="navbar">
+            <a href="/pages/medicine.html"> medicine</a>
+           <a href="/pages/healthcarep.html">healthcare</a>
+            <a href="/pages/labtests.html"> labtests</a>
+            <a href="/pages/blogs.html"> healthblog</a>
+            <a href="/pages/ordermed.html"> order meds</a>
+            <a href="/pages/checkup.html">check-up</a>
+            <a href="/pages/contact.html"> contact</a>
+            <a href="/pages/login.html">login</a>
+           </nav>
+    
+         
+          <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <!--<i class="fas fa-user" id="login-btn"></i>-->
+            <a href="/pages/cart.html"><i class="fas fa-cart-shopping" id="cart shopping"></i></a>
+         </div>
+         <i class="fa-solid fa-bars fa-2x hamburger" style="color: #ffffff;" ></i>
+    </header>
+
+    <!-- header section ends-->
 
     <!--Lab tests body starts-->
 
     <div class="nav-container">
-        <div class="nav-container-cards">
-            <a href="#alltest" class="nav-links"><h3><i class="fa-solid fa-vial-circle-check nav-container-cards-icons" style="color: #e51f1f;"></i><br>All Tests</h3></a>
+        <div class="nav-container-cards ">
+            <a href="#alltest" class="nav-links"><h3><i class="fa-solid fa-vial-circle-check fa-2x" style="color: #e51f1f;"></i><br>All Tests</h3></a>
         </div>
         <div class="nav-container-cards">
-            <a href="#health packages" class="nav-links"><h3><i class="fa-solid fa-notes-medical nav-container-cards-icons" style="color: #e60f0f;"></i><br>Health packages</h3></a>
+            <a href="#health packages" class="nav-links"><h3><i class="fa-solid fa-notes-medical nav-container-cards-icons fa-2x" style="color: #e60f0f;"></i><br>Health packages</h3></a>
         </div>
         <div class="nav-container-cards">
-            <a href="./ordermed.html" class="nav-links"><h3><i class="fa-solid fa-file-prescription nav-container-cards-icons" style="color: #e60a0a;"></i><br>Upload Prescription</h3></a>
+            <a href="./ordermed.html" class="nav-links"><h3><i class="fa-solid fa-file-prescription nav-container-cards-icons fa-2x" style="color: #e60a0a;"></i><br>Upload Prescription</h3></a>
         </div>
         <div class="nav-container-cards">
-            <a href="./contact.html" class="nav-links"><h3><i class="fa-solid fa-phone nav-container-cards-icons" style="color: #e21708;"></i> <br>Book on Call</h3></a>
+            <a href="./contact.html" class="nav-links"><h3><i class="fa-solid fa-phone nav-container-cards-icons fa-2x" style="color: #e21708;"></i> <br>Book on Call</h3></a>
         </div>
     </div>
 
@@ -71,7 +72,7 @@
     <h2 class="lab-container-heading" id="alltest" >Available Checkups<Small class="lab-container-view">View All</Small></h2>
     <div class="test-container">
         <div class="test-container-cards">
-             <img src="./../icons/test.png" class="test-container-icons" alt="heart">
+             <img src="./../icons/full-body.png" class="test-container-icons" alt="heart">
              <h3 class="test-container-cards-margin">Full Body Checkup</h3>
              <p class="test-container-cards-margin">Available at 1 certified lab</p>
              <p class="test-container-cards-margin">Includes 81 tests</p>
@@ -79,7 +80,7 @@
              <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="test-container-cards">
-            <img src="./../icons/test.png" class="test-container-icons" alt="heart">
+            <img src="./../icons/diabetes.png" class="test-container-icons" alt="heart">
             <h3 class="test-container-cards-margin">Diebetes  Care</h3>
             <p class="test-container-cards-margin">Available at 12 certified lab</p>
             <p class="test-container-cards-margin">Includes 16 tests</p>
@@ -87,7 +88,7 @@
             <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="test-container-cards">
-            <img src="./../icons/test.png" class="test-container-icons" alt="heart">
+            <img src="./../icons/basic-health.png" class="test-container-icons" alt="heart">
             <h3 class="test-container-cards-margin">Basic Health Checkup</h3>
             <p class="test-container-cards-margin">Available at 13 certified lab</p>
             <p class="test-container-cards-margin">Includes 11 tests</p>
@@ -95,7 +96,7 @@
             <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="test-container-cards">
-            <img src="./../icons/test.png" class="test-container-icons" alt="heart">
+            <img src="./../icons/thyroid.png" class="test-container-icons" alt="heart">
             <h3 class="test-container-cards-margin">Thyroid Care</h3>
             <p class="test-container-cards-margin">Available at 20 certified lab</p>
             <p class="test-container-cards-margin">Includes 51 tests</p>
@@ -136,7 +137,7 @@
         </div>
     </div>
 
-    <h2 class="lab-container-heading" id="health packages" >Affordable Health Packages <Small class="package-container-view">View All</Small></h2>
+    <h2 class="package-container-heading" id="health packages" >Affordable Health Packages <Small class="package-container-view">View All</Small></h2>
     <div class="package-container">
         <div class="package-container-cards">
             <image src="./../icons/package.png" class="lab-container-icon"></image>
@@ -147,7 +148,7 @@
             <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="package-container-cards">
-            <image src="./../icons/package.png" class="lab-container-icon"></image>
+            <image src="./../icons/essential.png" class="lab-container-icon"></image>
             <h3> TruHealth Essential</h3>
             <p class="package-container-cards-disc">Introducing TruHealth Basic Package,Which is a Full Body Screening Package</p>
             <p style="margin-bottom: 10px;"><b>Includes 25 tests</b></p>
@@ -155,7 +156,7 @@
             <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="package-container-cards">
-            <image src="./../icons/package.png" class="lab-container-icon"></image>
+            <image src="./../icons/gold.png" class="lab-container-icon"></image>
             <h3> TruHealth Gold</h3>
             <p class="package-container-cards-disc">Introducing TruHealth Basic Package,Which is Diabetes Package</p>
             <p style="margin-bottom: 10px;"><b>Includes 45 tests</b></p>
@@ -163,7 +164,7 @@
             <button class="test-container-icons-btn">Book Now </button>
         </div>
         <div class="package-container-cards">
-            <image src="./../icons/package.png" class="lab-container-icon"></image>
+            <image src="./../icons/diamond.png" class="lab-container-icon"></image>
             <h3> TruHealth Diamond</h3>
             <p class="package-container-cards-disc">Introducing TruHealth Basic Package,Which is a All Services Package</p>
             <p style="margin-bottom: 10px;"><b>Includes 70 tests</b></p>
@@ -191,54 +192,57 @@
     </div>
     <!--Lab tests body ends-->
 
-    <!--Footer-->
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Company</h4>
+     <!--Footer-->
+ <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/pages/about.html">About Us</a></li>
+                    <li><a href="#">Carrers</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Sell With PharmaCare</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="/pages/labtests.html">Labtests</a></li>
+                    <li><a href="/pages/healthcarep.html">Health Care</a></li>
+                    <li><a href="/pages/checkup.html">Check-Up</a></li>
+                    <li><a href="/pages/ordermed.html">Order Medicine</a></li>
+                </ul>
+            </div>
+  
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
                     <ul>
-                        <li><a href="/pages/about.html">About Us</a></li>
-                        <li><a href="#">Carrers</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Sell With PharmaCare</a></li>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
                     </ul>
                 </div>
-
-                <div class="footer-col">
-                    <h4>Get Help</h4>
-                    <ul>
-                        <li><a href="#">FAQS</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Order Status</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Carrers</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Sell With PharmaCare</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <ul>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </ul>
-                    </div>
-                </div>
-
+                <div class="footer-contact">
+                  <i class="fa-solid fa-phone mt-5"></i><a href="tel:+919822582525" class="footer-links"> +91-9822582525</a><br/><br/>
+                  <i class="fa-regular fa-envelope mt-5"></i><a href="mailto:pharmacare.org" class="footer-links">pharmacare.org</a>
+              </div>
             </div>
         </div>
-    </footer>
+    </div>
+  </footer>
 </body>
 </html>

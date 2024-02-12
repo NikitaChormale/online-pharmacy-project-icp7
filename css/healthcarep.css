@@ -1,7 +1,7 @@
 .heading{
-  background-color: rgb(10 83 79);
   padding: 20px;
-  color: white;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
   scale: 1.5;
   margin: 50px 0px 10px 0px;
   text-align: center;
@@ -11,6 +11,8 @@
 .box-container{
   display: flex;
   padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 10px;
   border-radius: 10px;
   display: inline-block;
@@ -19,7 +21,7 @@
 
 .box-card{
   width: 300px;
-  height: 400px;
+  min-height: 500px;
   background-color: rgba(255, 255, 255, 0.533) ;
   padding: 20px;
   margin: 10px;
@@ -27,13 +29,14 @@
   box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.604);
 }
 .add-card{
-  background-color: rgb(10 83 79);
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
   font-size: 15px;
   border:none;
   border-radius: 10px;
-  margin-left: 70px;
+  margin-left: 60px;
   cursor:pointer;
 }
 .add-card:hover{
@@ -41,8 +44,13 @@
   border:1px solid rgb(10 83 79);
 }
 .images{
-  width: 260px;
-  border-radius: 5px;
+  
+  width: 200px;
+  height: 200px;
+  /* height: 200px; */
+  border-radius: 5px; 
+  margin-left: 30px;
+  /* margin: 0 auto; */
 }
 
 .description{
@@ -51,4 +59,9 @@
   height: auto;
   font-size: large;
   text-align: center;
+}
+
+.box-card h4{
+  text-align: justify;
+  max-height: max-content;
 }

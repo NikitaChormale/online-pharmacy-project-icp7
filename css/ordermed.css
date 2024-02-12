@@ -1,9 +1,9 @@
 .heading{
     width: 100%;
-    color: #0a534f;
-    font-size: 60px;
+    color: black;
+    font-size: 50px;
     text-align: center;
-    padding: 80px;
+    margin-top: 30px;
 }
 .medicine{
     display: flex;
@@ -22,9 +22,9 @@
     border-radius: 5px;
 }
 .card{
-    background-color: #0a534f;
+    background-color: #10847e;
     color: #ffffff;
-    height:300px;
+    height:350px;
     width: 800px;
     border: solid;
     text-align: center;
@@ -43,14 +43,15 @@
     font-size: 30px;
 }
 .icon{
+    color: #ffffff;
     height: 40px;
 }
 .number{
-    color: #ffffff;
+    color:#ffffff;
     font-size: 20px;
 }
 .btn{
-    background-color:#0a534f;
+    background-color:#10847e;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -69,14 +70,79 @@
     .card{
         width: 600px;
     }
+    .card2{
+        display: none;
+    }
+    .title{
+        font-size: 40px;
+        padding-top: 40px;
+    }    
 }   
 @media screen and (max-width:600px) {
     .card{
         width: 500px;
     }
+    .card2{
+        display: none;
+}
+    .title{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 30px;
+    }
 }   
 @media screen and (max-width:500px) {
     .card{
-        width: 400px;
+        width: 300px;
     }
-}   
+    .card2{
+        display:none;
+    }
+    .title{
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    .menu{
+        font-size: 30px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 20px;
+    }
+}  
+@media screen and (max-width:429px) {
+    .card{
+        width: 300px;
+    }
+    .card2{
+        display:none;
+    }
+    .title{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .menu{
+        font-size: 20px;
+        width: 200px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 20px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+}
+    @media screen and (max-width:530px) {
+    
+        .heading{
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }

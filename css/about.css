@@ -46,7 +46,7 @@ body{
     flex-wrap: wrap;
 }
 .team-cards{
-    height: 250px;
+    height: 300px;
     width: 220px;
     margin: 10px 30px;
     border: 1px solid;
@@ -58,7 +58,8 @@ body{
     border-bottom: 5px solid #000;
 }
 .team-icon{
-    height: 100px;
+    height: 150px;
+    border-radius: 50%;
 }
 .team-member-name{
     font-size: 20px;
@@ -66,8 +67,13 @@ body{
 }
 .team-member-info{
     font-size: 15px;
+    margin-bottom: 5px;
 }
 .team-social{
     margin: 5px;
 }
 
+.icons-links{
+    text-decoration: none;
+    color: black;
+}

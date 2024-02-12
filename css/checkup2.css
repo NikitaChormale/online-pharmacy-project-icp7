@@ -1,15 +1,14 @@
 .heading
 {
-    color: white;
-    background-color:#0a534f;
-font-size: larger;
-padding-top: 10px;
-text-align: center;
-margin-top: 50px;
+    color: rgb(6, 6, 6);
+    font-size: 40px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 50px;
 }
 .book-for-patient{
-    background-color: #0a534f;
-    color: white;
+    background-color: paleturquoise;
+    color: rgb(0, 0, 0);
     padding: 10px 15px;
     font-size: 15px;
     margin:50px;
@@ -34,7 +33,7 @@ margin-top: 50px;
     }
 }
 .checkuppart{
-    margin:50px;
+    margin:30px 50px;
     padding: 50px;
     display: flex;
     flex-direction: row;
@@ -66,7 +65,11 @@ box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
 }
 .opt
 {
+<<<<<<< HEAD
     background-color:black;
+=======
+    background-color: #10847e;
+>>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     color: white;
     padding: 5px 10px;
 
