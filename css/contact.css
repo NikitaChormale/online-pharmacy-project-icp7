@@ -69,31 +69,26 @@ input, textarea {
 }
 
 input[type="submit"] {
-    background-color: paleturquoise; 
-    color: #000000;
+    background-color: rgb(0, 0, 0); 
+    color: #ffffff;
     cursor: pointer;
     max-width: 200px;
     display: block;
+    padding: 5px 50px;
     margin: 0 auto; /* Center the button horizontally */
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-input[type="submit"]:hover{
-    background-color: #27ae60;
-}
+
 
 /* Media Query for smaller screens */
 /* Media Query for smaller screens */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     body{
-        background-image: url("../images/d1.png");
-        background-repeat: no-repeat;
-        background-size: 300px 300px;
-        background-position: center center;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+
     }
     .contact {
         flex-direction: column;

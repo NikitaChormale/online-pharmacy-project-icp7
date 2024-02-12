@@ -1,11 +1,13 @@
 # PHARMACARE 
-Online Pharmacy Website
+
+## Online Pharmacy Website
 
 
 Hello, we are writing this blog to share our team's experience of creating a website named "PharmaCare". PharmaCare is an Indian healthcare app and ecommerce platform for consumers involved in selling online medicines, diagnostics, telehealth, online doctor consultation services. PharmaCare offers 1 lakh+ medicines and health products across various categories through its retail partners which are spread across the country. You can simply place an order on our website/app and we will deliver your online medicine order in as low as 4 hours, with a guaranteed delivery to you in 24–48* hrs!
 You can either pay online or opt for COD (cash on delivery) for your orders.
 
-Our team created PharmaCare within a week.Our group consists of seven members: Aditya Walzade ,Nikita Chormale ,Sanika Duvva ,Rupali Jagtap ,Aditya Jangid , Achal Chauke ,Vishal Gunjal
+Our team created PharmaCare within a week.Our group consists of seven members: 
+   Aditya Walzade ,Nikita Chormale ,Sanika Duvva ,Rupali Jagtap ,Aditya Jangid , Achal Chauke ,Vishal Gunjal
 
 Concepts we are used to create this website:
 
@@ -15,7 +17,7 @@ Concepts we are used to create this website:
 
 Landing Page:
 
-![0_D00etVAegxNj6mqe](https://github.com/adityaw20/online-pharmacy-project-icp7/blob/main/images/Homepage.png)
+![Home Page](https://github.com/adityaw20/online-pharmacy-project-icp7/blob/main/images/Homepage.png)
 
 
 We tried our best to create perfect cloned site, at first we decided to complete the user flow of the project that is user should see home page of the website,user should be able to signup and signin and user should be able to access the contents after completing the payment process.
