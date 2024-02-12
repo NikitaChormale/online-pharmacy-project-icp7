@@ -1,9 +1,9 @@
 .heading{
     width: 100%;
     color: black;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
-    padding-top: 30px;
+    margin-top: 30px;
 }
 .medicine{
     display: flex;
@@ -116,9 +116,9 @@
         height: 20px;
     }
 }  
-@media screen and (max-width:420px) {
+@media screen and (max-width:429px) {
     .card{
-        width: 200px;
+        width: 300px;
     }
     .card2{
         display:none;
@@ -128,10 +128,21 @@
         padding-top: 20px;
     }
     .menu{
-        font-size: 10px;
+        font-size: 20px;
+        width: 200px;
     }
     .icon{
         color: #ffffff;
         height: 20px;
     }
+    .heading{
+        font-size: 30px;
+    }
 }
+    @media screen and (max-width:530px) {
+    
+        .heading{
+            font-size: 30px;
+            margin-top: 30px;
+        }
+    }
