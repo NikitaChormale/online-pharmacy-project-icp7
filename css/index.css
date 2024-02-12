@@ -33,11 +33,7 @@
 .head{
     position:fixed;
     top:0; left:0; right:0;
-<<<<<<< HEAD
-    background:#0f5e5a;
-=======
     background:#106c67;
->>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     z-index:1000;
     display: flex;
     align-items: center;
@@ -204,9 +200,6 @@
     border-radius: 10px;
 }
 
-.btn:hover{
-   /* color:blue;*/
-}
 /*products section ends*/
 
 
