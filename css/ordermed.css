@@ -3,7 +3,7 @@
     color: black;
     font-size: 60px;
     text-align: center;
-    padding: 80px;
+    padding-top: 30px;
 }
 .medicine{
     display: flex;
@@ -43,10 +43,11 @@
     font-size: 30px;
 }
 .icon{
+    color: #ffffff;
     height: 40px;
 }
 .number{
-    color: #000000;
+    color:#ffffff;
     font-size: 20px;
 }
 .btn{
@@ -69,14 +70,68 @@
     .card{
         width: 600px;
     }
+    .card2{
+        display: none;
+    }
+    .title{
+        font-size: 40px;
+        padding-top: 40px;
+    }    
 }   
 @media screen and (max-width:600px) {
     .card{
         width: 500px;
     }
+    .card2{
+        display: none;
+}
+    .title{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 30px;
+    }
 }   
 @media screen and (max-width:500px) {
     .card{
-        width: 400px;
+        width: 300px;
     }
-}   
+    .card2{
+        display:none;
+    }
+    .title{
+        font-size: 10px;
+        padding-top: 20px;
+    }
+    .menu{
+        font-size: 30px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 20px;
+    }
+}  
+@media screen and (max-width:420px) {
+    .card{
+        width: 200px;
+    }
+    .card2{
+        display:none;
+    }
+    .title{
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .menu{
+        font-size: 10px;
+    }
+    .icon{
+        color: #ffffff;
+        height: 20px;
+    }
+}
