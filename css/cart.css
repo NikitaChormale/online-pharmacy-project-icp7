@@ -68,7 +68,7 @@
     .cart{
         flex-wrap: wrap;
         justify-content: space-around;
-        width:600px:
+        width:600px;
     }  
     .intems{
         height: 330px;
