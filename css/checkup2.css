@@ -49,7 +49,7 @@ padding:10px;
 border-radius: 10px;
 background-color: white;
 font-size: 10px; 
-box-shadow: 0px 0px 20px 0px rgba(17, 16, 16, 0.849);
+box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5);
 }
 .offer:hover{
     border: 1px solid  #0a534f;
@@ -65,7 +65,11 @@ box-shadow: 0px 0px 20px 0px rgba(17, 16, 16, 0.849);
 }
 .opt
 {
+<<<<<<< HEAD
+    background-color:black;
+=======
     background-color: #10847e;
+>>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     color: white;
     padding: 5px 10px;
 

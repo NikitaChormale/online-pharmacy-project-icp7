@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+
+    <link rel="stylesheet" href="../css/checkupagain.css"/>
+    <link rel="stylesheet" href="./../css/index.css"/>
+    <title>Check-Out - Pharmacy</title>
+</head>
+<body>
+    <header class="head">
+        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+      
+           <a href="/index.html" class="logo">pharmacare</a>
+           
+           <nav class="navbar">
+              <a href="./pages/medicine.html"> Medicine</a>
+              <a href="/pages/healthcarep.html"> Healthcare</a>
+              <a href="./pages/labtests.html"> LabTests</a>
+              <a href="#healthblog"> Healthblog</a>
+              <a href="/pages/ordermed.html">Order Meds</a>
+              <a href="/pages/checkup.html">Check-Up</a>
+              <a href="/pages/contact.html">Contact</a>
+      
+             <!-- <a href="#login">login</a>-->
+           </nav>
+          <i class="fa-solid fa-bars fa-2x hamburger" style="color: #ffffff;" ></i>
+       </header><br/><br/><br/>
+    <header>
+        <h2> Medical Check-Out</h2>
+    </header>
+    <div class="checkup">
+        <section class="checkup-image">
+            <img src="../images/concept-family-webp" alt="family Image">
+            <h1>Call us</h1><a href="tel:9860737643"><i class="fa-solid fa-phone"></i> &nbsp9860737643</a>
+            
+            <h3>Body Checkup with Discount</h3>
+        </section>
+        <section class="checkup-form">
+            <h1>Patient Details !</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Patient Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+            <label for="Address">Patient Address</label>
+            <input type="Address" id="email" name="Address" required>
+            <label for="date"><b>Birth Date:</b></label>
+            <input type="date" required/>
+            <label for="age"><B>Age:</B></label>
+            <input type="age" id="age" required/>
+            <label for="mobile no"class="main"><B>Mobile No:</B></label>
+            <input type="text" id="text" required/>
+        </br>
+        <B class="main">Select Gender:</B></br>
+<div class="gendercheck">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" />
+<label for="male">Female</label>
+<input type="radio" name="gender" id="female" />
+</div>
+<label for="message"><b>Patient Problem:</b></label>
+<textarea id="message" name="message" rows="4" required placeholder="Write your Problem..."></textarea>
+</br>
+<button class="btn-Register">Register</button>
+<a href="./checkup2.html"class="btn-next-page"> Next Page</a>
+        </form>
+    </section></div>
+</body>
+</html>

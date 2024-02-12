@@ -3,20 +3,28 @@
     width: 1000px;
     display: inline;
     margin:90px;
+    display: flex;
 }
-.medical-title{
-    text-align: center;
-    color:white ;
-    background-color:#0a534f;
-    font-size: large;
-    margin:5px;
-    padding-top:5px;
-    display:block;
+.checkup-image{
+    justify-content: left;
 }
-
+.image-container{
+    background-color:none;
+    padding-right:50px;
+    width: 400px;
+    
+}
 .titleone{
     text-align:center;
     margin:10px;
+<<<<<<< HEAD
+    color:black;
+}
+.Patientdetails{
+    display: block;
+    font-size:13px;
+    color:black; 
+=======
     font-size: 30px;
     color: rgb(0, 0, 0);
 }
@@ -24,8 +32,9 @@
     display: block;
     font-size:20px;
     color: rgb(11, 11, 11); 
+>>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     padding-left: 40px;
-    background-color: #3a8f8bc1; /* Lighter Greenish-White */
+    background-color: #8dddd9c1; /* Lighter Greenish-White */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);   
@@ -48,21 +57,29 @@
     padding: 8px;
 }
 .btn-Register{
+<<<<<<< HEAD
+    background-color:black;
+=======
     background-color: #10847e;
+>>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     color: white;
     padding: 10px 15px;
     font-size: 15px;
     margin:20px;
 }
 .btn-next-page{
+<<<<<<< HEAD
+    background-color:black;
+=======
     background-color: #10847e;
+>>>>>>> ef661dfdd878e9b0be0b32dd79a6daef689457d1
     color: white;
     padding: 10px 15px;
     font-size: 15px;
     margin:50px;
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .medical-code-all{
         flex-wrap: wrap;
     }
@@ -71,6 +88,10 @@
 
     }
     .btn-Register{
+        flex-wrap: wrap;
+
+    }
+    ..Patientdetails{
         flex-wrap: wrap;
     }
 
