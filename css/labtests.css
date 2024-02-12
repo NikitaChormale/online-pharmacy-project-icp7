@@ -1,5 +1,5 @@
 .nav-container{
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,19 +7,18 @@
     gap: 80px;
 }
 .nav-container-cards{
-    height: 70px;
-    width: 200px;
+    height: 130px;
+    width: 230px;
+    padding: 20px;
     border: 1px solid;
     border-radius: 50px;
     text-align: center;
     margin-top: 5px;
     font-size:18px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
     
 }
-.nav-container-cards-icons{
-    margin: 5px;
-    height: 20px;
-}
+
 .nav-links{
     text-decoration: none;
     color: black;
@@ -38,59 +37,61 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 40px;
+    margin: 10px 40px;
 }
 .test-container-cards{
-    width: 220px;
-    height: 260px;
+    width: 230px;
+    height: 320px;
     border: 1px solid;
     border-radius: 5px;
     background-color: #fff;
-    border: none;
+    border: 1px solid;
     text-align: center;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
 .test-container-icons{
-    height: 40px;
+    height: 100px;
     margin-top: 10px;
 }
 .test-container-icons-btn{
     border: 1px solid;
     padding: 5px 20px;
     border-radius: 10px;
-    color: black;
+    color: #ffff;
     font-size: 17px;
-    background-color: paleturquoise;
+    background-color: rgb(0, 0, 0);
 }
 .test-container-cards-margin{
     margin-bottom: 15px;
 }
 
 .lab-container-heading{
-    margin: 20px 50px;
+    margin: 10px 50px;
+    font-size: 25px;
 }
 .lab-container-view{
     position: relative;
-    margin-left: 890px;
+    margin-left: 860px;
 }
 .lab-container{
    display: flex;
    flex-wrap: wrap;
-   margin: 30px 40px;
+   margin: 20px 40px;
    justify-content: center;
    gap: 60px;
 }
 .lab-container-cards{
     width: 220px;
-    height: 240px;
+    height: 270px;
     border: 1px solid black;
     border-radius: 5px;
+    border: 1px solid;
     background-color: #fff;
     text-align: center;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 }
 .lab-container-icon{
-    height: 60px;
+    height: 100px;
     margin: 10px;
 }
 .lab-container-margin{
@@ -99,22 +100,23 @@
 
 .package-container-view{
     position: relative;
-    margin-left: 830px;
+    margin-left: 800px;
 
 }
 .package-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 30px 20px;
+    margin: 20px 20px;
     justify-content: center;
     gap: 60px;
 }
 .package-container-cards{
-    height: 330px;
+    height: 370px;
     width: 250px;
     border: 1px solid;
     text-align: center;
     border-radius: 5px;
+    border: 1px solid;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
 
 }
@@ -150,20 +152,29 @@
         width: 100%;
     }
 }
-@media screen and (max-width:416px) {
-    .nav-container-cards{
-        width: 100%;
-        border-radius: 20px;
+@media screen and (max-width:866px) {
+    .nav-container{
+        gap: 50px;
+     }
+     .test-container{
+        gap: 30px;
     }
-    
 }
-.head{
-    position:fixed;
-    top:0; left:0; right:0;
-    background:#10847e;
-    z-index:1000;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding: 10px;
+
+@media screen and (max-width:420px) {
+    .nav-container-cards{
+        width: 80%;
+        border-radius: 20px;
+        height: 100px;
+    }
+    .nav-container{
+        gap: 20px;
+     }
+     .lab-container{
+        gap: 10px;
+    }
+    .package-container{
+       gap: 10px;
+    }
 }
+
