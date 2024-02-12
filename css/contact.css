@@ -130,4 +130,9 @@ input[type="submit"] {
     }
 }
 
+@media screen and (max-width:420px) {
+    .contact-form{
+        width: 90%;
+    }
+}
 
