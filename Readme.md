@@ -8,7 +8,7 @@ Hello, we are writing this blog to share our team's experience of creating a web
 
 ----
 
-Our team created PharmaCare within a week.         Our group consists of seven members: 
+Our team created PharmaCare within a week.         Our group consists of six members: 
 
    - Aditya Walzade 
    - Nikita Chormale 
@@ -16,7 +16,6 @@ Our team created PharmaCare within a week.         Our group consists of seven m
    - Rupali Jagtap 
    - Aditya Jangid  
    - Achal Chauke 
-   - Vishal Gunjal
 
 Concepts we are used to create this website:
 
