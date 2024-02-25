@@ -23,7 +23,7 @@ Concepts we are used to create this website:
 
 2. CSS
 
-Landing Page:
+Home Page:
 
 ![Home Page](/images/Homepage.png)
 
