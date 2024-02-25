@@ -60,3 +60,10 @@ Netlify :https://pharmacareweb.netlify.app
 
 
 Thank You.
+----
+
+Contributers:
+
+<a href="https://github.com/adityaw20/online-pharmacy-project-icp7/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=adityaw20/online-pharmacy-project-icp7" />
+</a>
