@@ -56,7 +56,7 @@ After crossing each and every obstacles, we finally completed the PharmaCare web
 
 Github link: https://github.com/adityaw20/online-pharmacy-project-icp7
 
-Netlify :
+Netlify :https://pharmacareweb.netlify.app
 
 
 Thank You.
